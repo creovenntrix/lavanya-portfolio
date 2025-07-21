@@ -1,9 +1,9 @@
 {
-  "name": "vite_react_shadcn_ts",
-  "version": "0.0.0",
+  "name": "lavanya-portfolio",
+  "version": "1.0.0",
   "private": true,
-  "description": "**URL**: https://lovable.dev/projects/4225c058-dbef-4416-a443-1a9f0a158e8d",
-  "homepage": "https://github.com/creovenntrix/lavanya-portfolio#readme",
+  "description": "Lavanya's Personal Portfolio Website",
+  "homepage": "https://creovenntrix.github.io/lavanya-portfolio/",
   "bugs": {
     "url": "https://github.com/creovenntrix/lavanya-portfolio/issues"
   },
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/creovenntrix/lavanya-portfolio.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Lavanya",
   "type": "module",
   "main": "eslint.config.js",
   "scripts": {
@@ -82,14 +82,13 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.9.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
-    "lovable-tagger": "^1.1.7",
-    "postcss": "^8.4.47",
+    "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.5.3",

@@ -1,13 +1,13 @@
 import type { Config } from "tailwindcss";
-import animatePlugin from "tailwindcss-animate"; // <-- use ESM import
+import animatePlugin from "tailwindcss-animate"; // <-- ESM import for animation plugin
 
 const config: Config = {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{ts,tsx}",
+    "./index.html",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}"
   ],
   prefix: "",
   theme: {

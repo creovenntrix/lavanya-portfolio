@@ -3,17 +3,15 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import fs from "fs";
 
-export default defineConfig(({ mode }) => ({
-  base: "/lavanya-portfolio/", // Important for GitHub Pages
+export default defineConfig(() => ({
+  base: "/lavanya-portfolio/",
   server: {
     host: "::",
     port: 8080,
   },
   plugins: [
     react(),
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    mode === "development" && require("lovable-tagger")?.componentTagger(),
-  ].filter(Boolean),
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
