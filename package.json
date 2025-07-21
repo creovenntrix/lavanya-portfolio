@@ -1,8 +1,20 @@
 {
   "name": "vite_react_shadcn_ts",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "**URL**: https://lovable.dev/projects/4225c058-dbef-4416-a443-1a9f0a158e8d",
+  "homepage": "https://github.com/creovenntrix/lavanya-portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/creovenntrix/lavanya-portfolio/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creovenntrix/lavanya-portfolio.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
